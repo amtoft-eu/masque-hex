@@ -1,0 +1,17 @@
+## Interface: 80200
+## Title: Masque: Hex
+
+## Notes: Hex skin for Masque.
+## Notes-deDE: Hex-Skin für Masque.
+## Notes-esES: Skin Hex para Masque.
+## Notes-esMX: Skin Hex para Masque.
+## Notes-itIT: Skin Hex per Masque.
+## Notes-ruRU: Скин Hex для Masque.
+## Notes-zhTW: Masque的Hex皮膚。
+
+## Version: 1.0.0
+## Author: AmtoftEU
+## Dependencies: Masque
+
+# Skins
+Skins.lua
