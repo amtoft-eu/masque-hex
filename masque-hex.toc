@@ -1,4 +1,4 @@
-## Interface: 90207
+## Interface: 100002
 ## Title: Masque: Hex
 
 ## Notes: Hex skin for Masque.
