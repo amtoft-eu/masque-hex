@@ -21,7 +21,7 @@ MSQ:AddSkin("Hex AmtoftEU", {
 	-- Skin
 	-- Mask = nil,
 	Backdrop = {
-		Texture = [[Interface\AddOns\Masque_Hex\Textures\hex_bck]],
+		Texture = [[Interface\AddOns\masque-hex\Textures\hex_bck]],
 		-- TexCoords = {0, 1, 0, 1},
 		Color = {1, 1, 1, 1},
 		BlendMode = "BLEND",
@@ -38,7 +38,7 @@ MSQ:AddSkin("Hex AmtoftEU", {
 		Width = 36,
 		Height = 36,
 		TexCoords = {0.07,0.93,0.07,0.93},
-		Mask = [[Interface\AddOns\Masque_Hex\Textures\hex_mask]],
+		Mask = [[Interface\AddOns\masque-hex\Textures\hex_mask]],
 		--TexCoords = {0.02, 0.98, 0.02, 0.98},
 		--DrawLayer = "BACKGROUND",
 		--DrawLevel = 0,
@@ -51,7 +51,7 @@ MSQ:AddSkin("Hex AmtoftEU", {
 		-- SetAllPoints = nil,
 	},
 	Shadow = {
-		Texture = [[Interface\AddOns\Masque_Hex\Textures\hex_shadow]],
+		Texture = [[Interface\AddOns\masque-hex\Textures\hex_shadow]],
 		-- TexCoords = {0, 1, 0, 1},
 		Color = {0, 0, 0, 0.5},
 		BlendMode = "BLEND",
@@ -66,10 +66,10 @@ MSQ:AddSkin("Hex AmtoftEU", {
 		-- SetAllPoints = nil,
 	},
 	Normal = {
-		Texture = [[Interface\AddOns\Masque_Hex\Textures\hex_normal]],
+		Texture = [[Interface\AddOns\masque-hex\Textures\hex_normal]],
 		-- TexCoords = {0, 1, 0, 1},
 		Color = {0.3, 0.3, 0.3, 1},
-		-- EmptyTexture = [[Interface\AddOns\Masque_Hex\Textures\Normal]],
+		-- EmptyTexture = [[Interface\AddOns\masque-hex\Textures\Normal]],
 		-- EmptyCoords = {0, 1, 0, 1},
 		-- EmptyColor = {1, 0.3, 0.3, 0.5},
 		BlendMode = "BLEND",
@@ -151,7 +151,7 @@ MSQ:AddSkin("Hex AmtoftEU", {
 		OffsetY = -3,
 	},
 	Checked = {
-		Texture = [[Interface\AddOns\Masque_Hex\Textures\hex_border]],
+		Texture = [[Interface\AddOns\masque-hex\Textures\hex_border]],
 		-- TexCoords = {0, 1, 0, 1},
 		Color = {0, 0.7, 0.9, 0.7},
 		BlendMode = "BLEND",
@@ -166,7 +166,7 @@ MSQ:AddSkin("Hex AmtoftEU", {
 		-- SetAllPoints = nil,
 	},
 	Border = {
-		Texture = [[Interface\AddOns\Masque_Hex\Textures\hex_border]],
+		Texture = [[Interface\AddOns\masque-hex\Textures\hex_border]],
 		-- TexCoords = {0, 1, 0, 1},
 		BlendMode = "BLEND",
 		DrawLayer = "OVERLAY",
@@ -179,7 +179,7 @@ MSQ:AddSkin("Hex AmtoftEU", {
 		OffsetY = 0,
 		-- SetAllPoints = nil,
 		Enchant = {
-			Texture = [[Interface\AddOns\Masque_Hex\Textures\hex_border]],
+			Texture = [[Interface\AddOns\masque-hex\Textures\hex_border]],
 			-- TexCoords = {0, 1, 0, 1},
 			Color = {0.6, 0.2, 0.9, 1},
 			BlendMode = "BLEND",
@@ -195,8 +195,8 @@ MSQ:AddSkin("Hex AmtoftEU", {
 		},
 	},
 	IconBorder = {
-		Texture = [[Interface\AddOns\Masque_Hex\Textures\hex_border]],
-		-- RelicTexture = [[Interface\AddOns\Masque_Hex\Textures\Border]],
+		Texture = [[Interface\AddOns\masque-hex\Textures\hex_border]],
+		-- RelicTexture = [[Interface\AddOns\masque-hex\Textures\Border]],
 		-- TexCoords = {0, 1, 0, 1},
 		-- Color = {1, 1, 1, 1},
 		BlendMode = "BLEND",
@@ -211,7 +211,7 @@ MSQ:AddSkin("Hex AmtoftEU", {
 		-- SetAllPoints = nil,
 	},
 	SlotHighlight = {
-		Texture = [[Interface\AddOns\Masque_Hex\Textures\hex_border]],
+		Texture = [[Interface\AddOns\masque-hex\Textures\hex_border]],
 		-- TexCoords = {0, 1, 0, 1},
 		Color = {0, 0.7, 0.9, 0.7},
 		BlendMode = "BLEND",
@@ -226,7 +226,7 @@ MSQ:AddSkin("Hex AmtoftEU", {
 		-- SetAllPoints = nil,
 	},
 	Gloss = {
-		Texture = [[Interface\AddOns\Masque_Hex\Textures\hex_gloss]],
+		Texture = [[Interface\AddOns\masque-hex\Textures\hex_gloss]],
 		-- TexCoords = {0, 1, 0, 1},
 		Color = {1, 1, 1, 0.5},
 		BlendMode = "BLEND",
@@ -256,7 +256,7 @@ MSQ:AddSkin("Hex AmtoftEU", {
 	},
 	NewAction = {
 		-- Atlas = "bags-newitem",
-		Texture = [[Interface\AddOns\Masque_Hex\Textures\hex_glow]],
+		Texture = [[Interface\AddOns\masque-hex\Textures\hex_glow]],
 		Color = {1, 1, 0.8, 1},
 		BlendMode = "BLEND",
 		DrawLayer = "OVERLAY",
@@ -271,7 +271,7 @@ MSQ:AddSkin("Hex AmtoftEU", {
 	},
 	SpellHighlight = {
 		-- Atlas = "bags-newitem",
-		Texture = [[Interface\AddOns\Masque_Hex\Textures\hex_glow]],
+		Texture = [[Interface\AddOns\masque-hex\Textures\hex_glow]],
 		Color = {1, 1, 0.8, 1},
 		BlendMode = "BLEND",
 		DrawLayer = "OVERLAY",
@@ -285,7 +285,7 @@ MSQ:AddSkin("Hex AmtoftEU", {
 		-- SetAllPoints = nil,
 	},
 	AutoCastable = {
-		Texture = [[Interface\AddOns\Masque_Hex\Textures\hex_indicator]],
+		Texture = [[Interface\AddOns\masque-hex\Textures\hex_indicator]],
 		-- TexCoords = {0, 1, 0, 1},
 		Color = {1, 1, 0, 1},
 		BlendMode = "BLEND",
@@ -301,7 +301,7 @@ MSQ:AddSkin("Hex AmtoftEU", {
 	},
 	NewItem = {
 		-- Atlas = "bags-glow-white",
-		Texture = [[Interface\AddOns\Masque_Hex\Textures\hex_glow]],
+		Texture = [[Interface\AddOns\masque-hex\Textures\hex_glow]],
 		-- TexCoords = {0, 1, 0, 1},
 		-- Color = {1, 1, 1, 1},
 		BlendMode = "ADD",
@@ -359,7 +359,7 @@ MSQ:AddSkin("Hex AmtoftEU", {
 		OffsetY = 2,
 	},
 	Highlight = {
-		Texture = [[Interface\AddOns\Masque_Hex\Textures\hex_border]],
+		Texture = [[Interface\AddOns\masque-hex\Textures\hex_border]],
 		-- TexCoords = {0, 1, 0, 1},
 		Color = {1, 1, 1, 0.3},
 		BlendMode = "ADD",
@@ -384,7 +384,7 @@ MSQ:AddSkin("Hex AmtoftEU", {
 		-- SetAllPoints = nil,
 	},
 	Cooldown = {
-		Texture = [[Interface\AddOns\Masque_Hex\Textures\hex_sweep]],
+		Texture = [[Interface\AddOns\masque-hex\Textures\hex_sweep]],
 		Color = {0, 0, 0, 0.7},
 		Width = 42,
 		Height = 42,
