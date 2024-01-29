@@ -1,4 +1,4 @@
-## Interface: 80200
+## Interface: 80300
 ## Title: Masque: Hex
 
 ## Notes: Hex skin for Masque.
