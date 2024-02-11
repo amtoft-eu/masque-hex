@@ -1,6 +1,16 @@
 local MSQ = LibStub and LibStub("Masque", true)
 if not MSQ then return end
 
+-- Adding custom ants spell alert (old one)
+
+local glow = [[Interface\AddOns\masque-hex\Textures\IconAlert\hex_icon_alert]]
+local ants = [[Interface\AddOns\masque-hex\Textures\IconAlert\hex_ants]]
+local glow_rotated = [[Interface\AddOns\masque-hex\Textures\IconAlert\hex_icon_alert_rotated]]
+local ants_rotated = [[Interface\AddOns\masque-hex\Textures\IconAlert\hex_ants_rotated]]
+
+MSQ:AddSpellAlert("Hexagon", glow, ants)
+MSQ:AddSpellAlert("HexagonRotated", glow_rotated, ants_rotated)
+
 local AddOn, Core = ...
 
 
@@ -15,7 +25,7 @@ local Websites = {
 ---
 
 MSQ:AddSkin("Hex AmtoftEU", {
-	Shape = "Circle",
+	Shape = "Hexagon",
 	Masque_Version = 80200,
 
 	-- Skin
@@ -401,7 +411,7 @@ MSQ:AddSkin("Hex AmtoftEU", {
 
 
 MSQ:AddSkin("Hex AmtoftEU Rotated", {
-	Shape = "Circle",
+	Shape = "HexagonRotated",
 	Masque_Version = 80200,
 
 	-- Skin
@@ -786,7 +796,7 @@ MSQ:AddSkin("Hex AmtoftEU Rotated", {
 }, true)
 
 MSQ:AddSkin("Hex AmtoftEU Clean", {
-	Shape = "Circle",
+	Shape = "Hexagon",
 	Masque_Version = 80200,
 
 	-- Skin
@@ -1172,7 +1182,7 @@ MSQ:AddSkin("Hex AmtoftEU Clean", {
 
 
 MSQ:AddSkin("Hex AmtoftEU Clean Rotated", {
-	Shape = "Circle",
+	Shape = "HexagonRotated",
 	Masque_Version = 80200,
 
 	-- Skin
@@ -1558,7 +1568,7 @@ MSQ:AddSkin("Hex AmtoftEU Clean Rotated", {
 
 
 MSQ:AddSkin("Hex AmtoftEU Black Border", {
-	Shape = "Circle",
+	Shape = "Hexagon",
 	Masque_Version = 80200,
 
 	-- Skin
@@ -1944,7 +1954,7 @@ MSQ:AddSkin("Hex AmtoftEU Black Border", {
 
 
 MSQ:AddSkin("Hex AmtoftEU Black Border Rotated", {
-	Shape = "Circle",
+	Shape = "HexagonRotated",
 	Masque_Version = 80200,
 
 	-- Skin
@@ -2329,7 +2339,7 @@ MSQ:AddSkin("Hex AmtoftEU Black Border Rotated", {
 }, true)
 
 MSQ:AddSkin("Hex Soft", {
-	Shape = "Circle",
+	Shape = "Hexagon",
 	Masque_Version = 80200,
 
 	-- Skin
@@ -2714,7 +2724,7 @@ MSQ:AddSkin("Hex Soft", {
 }, true)
 
 MSQ:AddSkin("Hex Soft Rotated", {
-	Shape = "Circle",
+	Shape = "HexagonRotated",
 	Masque_Version = 80200,
 
 	-- Skin
@@ -3099,7 +3109,7 @@ MSQ:AddSkin("Hex Soft Rotated", {
 }, true)
 
 MSQ:AddSkin("Hex Black Border Soft", {
-	Shape = "Circle",
+	Shape = "Hexagon",
 	Masque_Version = 80200,
 
 	-- Skin
@@ -3393,7 +3403,7 @@ MSQ:AddSkin("Hex Black Border Soft", {
 }, true)
 
 MSQ:AddSkin("Hex Black Border Soft Rotated", {
-	Shape = "Circle",
+	Shape = "HexagonRotated",
 	Masque_Version = 80200,
 
 	-- Skin
@@ -3687,7 +3697,7 @@ MSQ:AddSkin("Hex Black Border Soft Rotated", {
 }, true)
 
 MSQ:AddSkin("Hex Clean Soft", {
-	Shape = "Circle",
+	Shape = "Hexagon",
 	Masque_Version = 80200,
 
 	-- Skin
@@ -4073,7 +4083,7 @@ MSQ:AddSkin("Hex Clean Soft", {
 
 
 MSQ:AddSkin("Hex Clean Soft Rotated", {
-	Shape = "Circle",
+	Shape = "HexagonRotated",
 	Masque_Version = 80200,
 
 	-- Skin
