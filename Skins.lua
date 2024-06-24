@@ -9,7 +9,7 @@ local glow_rotated = [[Interface\AddOns\masque-hex\Textures\IconAlert\hex_icon_a
 local ants_rotated = [[Interface\AddOns\masque-hex\Textures\IconAlert\hex_ants_rotated]]
 
 MSQ:AddSpellAlert("Hexagon", glow, ants)
-MSQ:AddSpellAlert("HexagonRotated", glow_rotated, ants_rotated)
+MSQ:AddSpellAlert("Hexagon-Rotated", glow_rotated, ants_rotated)
 
 local AddOn, Core = ...
 
