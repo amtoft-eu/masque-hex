@@ -409,6 +409,10 @@ MSQ:AddSkin("Hex AmtoftEU", {
 		IsRound = true,
 		--SetAllPoints = nil,
 	},
+	SpellAlert = {
+		Height = 34,
+		Width = 34,
+	},
 }, true)
 
 MSQ:AddSkin("Hex AmtoftEU Rotated", {
@@ -795,6 +799,10 @@ MSQ:AddSkin("Hex AmtoftEU Rotated", {
 		OffsetY = 0,
 		IsRound = true,
 		-- SetAllPoints = nil,
+	},
+	SpellAlert = {
+		Height = 34,
+		Width = 34,
 	},
 }, true)
 
@@ -1183,6 +1191,10 @@ MSQ:AddSkin("Hex AmtoftEU Clean", {
 		IsRound = true,
 		-- SetAllPoints = nil,
 	},
+	SpellAlert = {
+		Height = 34,
+		Width = 34,
+	},
 }, true)
 
 MSQ:AddSkin("Hex AmtoftEU Clean Rotated", {
@@ -1569,6 +1581,10 @@ MSQ:AddSkin("Hex AmtoftEU Clean Rotated", {
 		OffsetY = 0,
 		IsRound = true,
 		-- SetAllPoints = nil,
+	},
+	SpellAlert = {
+		Height = 34,
+		Width = 34,
 	},
 }, true)
 
@@ -1957,6 +1973,10 @@ MSQ:AddSkin("Hex AmtoftEU Black Border", {
 		IsRound = true,
 		-- SetAllPoints = nil,
 	},
+	SpellAlert = {
+		Height = 36,
+		Width = 36,
+	},
 }, true)
 
 MSQ:AddSkin("Hex AmtoftEU Black Border Rotated", {
@@ -2343,6 +2363,10 @@ MSQ:AddSkin("Hex AmtoftEU Black Border Rotated", {
 		OffsetY = 0,
 		IsRound = true,
 		-- SetAllPoints = nil,
+	},
+	SpellAlert = {
+		Height = 36,
+		Width = 36,
 	},
 }, true)
 
@@ -2731,6 +2755,10 @@ MSQ:AddSkin("Hex Soft", {
 		IsRound = true,
 		-- SetAllPoints = nil,
 	},
+	SpellAlert = {
+		Height = 34,
+		Width = 34,
+	},
 }, true)
 
 MSQ:AddSkin("Hex Soft Rotated", {
@@ -3118,6 +3146,10 @@ MSQ:AddSkin("Hex Soft Rotated", {
 		IsRound = true,
 		-- SetAllPoints = nil,
 	},
+	SpellAlert = {
+		Height = 34,
+		Width = 34,
+	},
 }, true)
 
 MSQ:AddSkin("Hex Black Border Soft", {
@@ -3414,6 +3446,10 @@ MSQ:AddSkin("Hex Black Border Soft", {
 		IsRound = true,
 		-- SetAllPoints = nil,
 	},
+	SpellAlert = {
+		Height = 36,
+		Width = 36,
+	},
 }, true)
 
 MSQ:AddSkin("Hex Black Border Soft Rotated", {
@@ -3709,6 +3745,10 @@ MSQ:AddSkin("Hex Black Border Soft Rotated", {
 		OffsetY = 0,
 		IsRound = true,
 		-- SetAllPoints = nil,
+	},
+	SpellAlert = {
+		Height = 36,
+		Width = 36,
 	},
 }, true)
 
@@ -4097,6 +4137,10 @@ MSQ:AddSkin("Hex Clean Soft", {
 		IsRound = true,
 		-- SetAllPoints = nil,
 	},
+	SpellAlert = {
+		Height = 34,
+		Width = 34,
+	},
 }, true)
 
 MSQ:AddSkin("Hex Clean Soft Rotated", {
@@ -4483,5 +4527,9 @@ MSQ:AddSkin("Hex Clean Soft Rotated", {
 		OffsetY = 0,
 		IsRound = true,
 		-- SetAllPoints = nil,
+	},
+	SpellAlert = {
+		Height = 34,
+		Width = 34,
 	},
 }, true)
