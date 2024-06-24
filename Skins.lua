@@ -26,7 +26,7 @@ local Websites = {
 
 MSQ:AddSkin("Hex AmtoftEU", {
 	Shape = "Hexagon",
-	Masque_Version = 80200,
+	API_VERSION = 100207,
 
 	-- Skin
 	-- Mask = nil,
@@ -417,7 +417,7 @@ MSQ:AddSkin("Hex AmtoftEU", {
 
 MSQ:AddSkin("Hex AmtoftEU Rotated", {
 	Shape = "Hexagon-Rotated",
-	Masque_Version = 80200,
+	API_VERSION = 100207,
 
 	-- Skin
 	-- Mask = nil,
@@ -808,7 +808,7 @@ MSQ:AddSkin("Hex AmtoftEU Rotated", {
 
 MSQ:AddSkin("Hex AmtoftEU Clean", {
 	Shape = "Hexagon",
-	Masque_Version = 80200,
+	API_VERSION = 100207,
 
 	-- Skin
 	-- Mask = nil,
@@ -1199,7 +1199,7 @@ MSQ:AddSkin("Hex AmtoftEU Clean", {
 
 MSQ:AddSkin("Hex AmtoftEU Clean Rotated", {
 	Shape = "Hexagon-Rotated",
-	Masque_Version = 80200,
+	API_VERSION = 100207,
 
 	-- Skin
 	-- Mask = nil,
@@ -1590,7 +1590,7 @@ MSQ:AddSkin("Hex AmtoftEU Clean Rotated", {
 
 MSQ:AddSkin("Hex AmtoftEU Black Border", {
 	Shape = "Hexagon",
-	Masque_Version = 80200,
+	API_VERSION = 100207,
 
 	-- Skin
 	-- Mask = nil,
@@ -1981,7 +1981,7 @@ MSQ:AddSkin("Hex AmtoftEU Black Border", {
 
 MSQ:AddSkin("Hex AmtoftEU Black Border Rotated", {
 	Shape = "Hexagon-Rotated",
-	Masque_Version = 80200,
+	API_VERSION = 100207,
 
 	-- Skin
 	-- Mask = nil,
@@ -2372,7 +2372,7 @@ MSQ:AddSkin("Hex AmtoftEU Black Border Rotated", {
 
 MSQ:AddSkin("Hex Soft", {
 	Shape = "Hexagon",
-	Masque_Version = 80200,
+	API_VERSION = 100207,
 
 	-- Skin
 	-- Mask = nil,
@@ -2763,7 +2763,7 @@ MSQ:AddSkin("Hex Soft", {
 
 MSQ:AddSkin("Hex Soft Rotated", {
 	Shape = "Hexagon-Rotated",
-	Masque_Version = 80200,
+	API_VERSION = 100207,
 
 	-- Skin
 	-- Mask = nil,
@@ -3154,7 +3154,7 @@ MSQ:AddSkin("Hex Soft Rotated", {
 
 MSQ:AddSkin("Hex Black Border Soft", {
 	Shape = "Hexagon",
-	Masque_Version = 80200,
+	API_VERSION = 100207,
 
 	-- Skin
 	-- Mask = nil,
@@ -3454,7 +3454,7 @@ MSQ:AddSkin("Hex Black Border Soft", {
 
 MSQ:AddSkin("Hex Black Border Soft Rotated", {
 	Shape = "Hexagon-Rotated",
-	Masque_Version = 80200,
+	API_VERSION = 100207,
 
 	-- Skin
 	-- Mask = nil,
@@ -3754,7 +3754,7 @@ MSQ:AddSkin("Hex Black Border Soft Rotated", {
 
 MSQ:AddSkin("Hex Clean Soft", {
 	Shape = "Hexagon",
-	Masque_Version = 80200,
+	API_VERSION = 100207,
 
 	-- Skin
 	-- Mask = nil,
@@ -4145,7 +4145,7 @@ MSQ:AddSkin("Hex Clean Soft", {
 
 MSQ:AddSkin("Hex Clean Soft Rotated", {
 	Shape = "Hexagon-Rotated",
-	Masque_Version = 80200,
+	API_VERSION = 100207,
 
 	-- Skin
 	-- Mask = nil,
