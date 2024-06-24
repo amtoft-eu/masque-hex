@@ -13,13 +13,13 @@ MSQ:AddSpellAlert("HexagonRotated", glow_rotated, ants_rotated)
 
 local AddOn, Core = ...
 
-
 -- Skin Info
-local Version = GetAddOnMetadata(AddOn, "Version")
+local Version = C_AddOns.GetAddOnMetadata(AddOn, "Version")
 local Websites = {
 	"https://github.com/amtoft-eu/masque-hex",
 	"https://www.curseforge.com/wow/addons/masque-hex",
 }
+
 ----------------------------------------
 -- Hex
 ---
@@ -408,7 +408,6 @@ MSQ:AddSkin("Hex AmtoftEU", {
 		SetAllPoints = true,
 	},
 }, true)
-
 
 MSQ:AddSkin("Hex AmtoftEU Rotated", {
 	Shape = "HexagonRotated",
@@ -1180,7 +1179,6 @@ MSQ:AddSkin("Hex AmtoftEU Clean", {
 	},
 }, true)
 
-
 MSQ:AddSkin("Hex AmtoftEU Clean Rotated", {
 	Shape = "HexagonRotated",
 	Masque_Version = 80200,
@@ -1566,7 +1564,6 @@ MSQ:AddSkin("Hex AmtoftEU Clean Rotated", {
 	},
 }, true)
 
-
 MSQ:AddSkin("Hex AmtoftEU Black Border", {
 	Shape = "Hexagon",
 	Masque_Version = 80200,
@@ -1951,7 +1948,6 @@ MSQ:AddSkin("Hex AmtoftEU Black Border", {
 		SetAllPoints = true,
 	},
 }, true)
-
 
 MSQ:AddSkin("Hex AmtoftEU Black Border Rotated", {
 	Shape = "HexagonRotated",
@@ -4080,7 +4076,6 @@ MSQ:AddSkin("Hex Clean Soft", {
 		SetAllPoints = true,
 	},
 }, true)
-
 
 MSQ:AddSkin("Hex Clean Soft Rotated", {
 	Shape = "HexagonRotated",
