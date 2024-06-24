@@ -396,6 +396,7 @@ MSQ:AddSkin("Hex AmtoftEU", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0,
+		IsRound = true,
 		-- SetAllPoints = nil,
 	},
 	ChargeCooldown = {
@@ -405,12 +406,13 @@ MSQ:AddSkin("Hex AmtoftEU", {
 		-- RelPoint = "CENTER",
 		-- OffsetX = 0,
 		-- OffsetY = 0,
+		IsRound = true,
 		SetAllPoints = true,
 	},
 }, true)
 
 MSQ:AddSkin("Hex AmtoftEU Rotated", {
-	Shape = "HexagonRotated",
+	Shape = "Hexagon-Rotated",
 	Masque_Version = 80200,
 
 	-- Skin
@@ -781,6 +783,7 @@ MSQ:AddSkin("Hex AmtoftEU Rotated", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0,
+		IsRound = true,
 		-- SetAllPoints = nil,
 	},
 	ChargeCooldown = {
@@ -790,6 +793,7 @@ MSQ:AddSkin("Hex AmtoftEU Rotated", {
 		-- RelPoint = "CENTER",
 		-- OffsetX = 0,
 		-- OffsetY = 0,
+		IsRound = true,
 		SetAllPoints = true,
 	},
 }, true)
@@ -1166,6 +1170,7 @@ MSQ:AddSkin("Hex AmtoftEU Clean", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0,
+		IsRound = true,
 		-- SetAllPoints = nil,
 	},
 	ChargeCooldown = {
@@ -1175,12 +1180,13 @@ MSQ:AddSkin("Hex AmtoftEU Clean", {
 		-- RelPoint = "CENTER",
 		-- OffsetX = 0,
 		-- OffsetY = 0,
+		IsRound = true,
 		SetAllPoints = true,
 	},
 }, true)
 
 MSQ:AddSkin("Hex AmtoftEU Clean Rotated", {
-	Shape = "HexagonRotated",
+	Shape = "Hexagon-Rotated",
 	Masque_Version = 80200,
 
 	-- Skin
@@ -1551,6 +1557,7 @@ MSQ:AddSkin("Hex AmtoftEU Clean Rotated", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0,
+		IsRound = true,
 		-- SetAllPoints = nil,
 	},
 	ChargeCooldown = {
@@ -1560,6 +1567,7 @@ MSQ:AddSkin("Hex AmtoftEU Clean Rotated", {
 		-- RelPoint = "CENTER",
 		-- OffsetX = 0,
 		-- OffsetY = 0,
+		IsRound = true,
 		SetAllPoints = true,
 	},
 }, true)
@@ -1936,6 +1944,7 @@ MSQ:AddSkin("Hex AmtoftEU Black Border", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0,
+		IsRound = true,
 		-- SetAllPoints = nil,
 	},
 	ChargeCooldown = {
@@ -1945,12 +1954,13 @@ MSQ:AddSkin("Hex AmtoftEU Black Border", {
 		-- RelPoint = "CENTER",
 		-- OffsetX = 0,
 		-- OffsetY = 0,
+		IsRound = true,
 		SetAllPoints = true,
 	},
 }, true)
 
 MSQ:AddSkin("Hex AmtoftEU Black Border Rotated", {
-	Shape = "HexagonRotated",
+	Shape = "Hexagon-Rotated",
 	Masque_Version = 80200,
 
 	-- Skin
@@ -2321,6 +2331,7 @@ MSQ:AddSkin("Hex AmtoftEU Black Border Rotated", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0,
+		IsRound = true,
 		-- SetAllPoints = nil,
 	},
 	ChargeCooldown = {
@@ -2330,6 +2341,7 @@ MSQ:AddSkin("Hex AmtoftEU Black Border Rotated", {
 		-- RelPoint = "CENTER",
 		-- OffsetX = 0,
 		-- OffsetY = 0,
+		IsRound = true,
 		SetAllPoints = true,
 	},
 }, true)
@@ -2706,6 +2718,7 @@ MSQ:AddSkin("Hex Soft", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0,
+		IsRound = true,
 		-- SetAllPoints = nil,
 	},
 	ChargeCooldown = {
@@ -2715,12 +2728,13 @@ MSQ:AddSkin("Hex Soft", {
 		-- RelPoint = "CENTER",
 		-- OffsetX = 0,
 		-- OffsetY = 0,
+		IsRound = true,
 		SetAllPoints = true,
 	},
 }, true)
 
 MSQ:AddSkin("Hex Soft Rotated", {
-	Shape = "HexagonRotated",
+	Shape = "Hexagon-Rotated",
 	Masque_Version = 80200,
 
 	-- Skin
@@ -3091,6 +3105,7 @@ MSQ:AddSkin("Hex Soft Rotated", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0,
+		IsRound = true,
 		-- SetAllPoints = nil,
 	},
 	ChargeCooldown = {
@@ -3100,6 +3115,7 @@ MSQ:AddSkin("Hex Soft Rotated", {
 		-- RelPoint = "CENTER",
 		-- OffsetX = 0,
 		-- OffsetY = 0,
+		IsRound = true,
 		SetAllPoints = true,
 	},
 }, true)
@@ -3385,6 +3401,7 @@ MSQ:AddSkin("Hex Black Border Soft", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0,
+		IsRound = true,
 		-- SetAllPoints = nil,
 	},
 	ChargeCooldown = {
@@ -3394,12 +3411,13 @@ MSQ:AddSkin("Hex Black Border Soft", {
 		-- RelPoint = "CENTER",
 		-- OffsetX = 0,
 		-- OffsetY = 0,
+		IsRound = true,
 		SetAllPoints = true,
 	},
 }, true)
 
 MSQ:AddSkin("Hex Black Border Soft Rotated", {
-	Shape = "HexagonRotated",
+	Shape = "Hexagon-Rotated",
 	Masque_Version = 80200,
 
 	-- Skin
@@ -3679,6 +3697,7 @@ MSQ:AddSkin("Hex Black Border Soft Rotated", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0,
+		IsRound = true,
 		-- SetAllPoints = nil,
 	},
 	ChargeCooldown = {
@@ -3688,6 +3707,7 @@ MSQ:AddSkin("Hex Black Border Soft Rotated", {
 		-- RelPoint = "CENTER",
 		-- OffsetX = 0,
 		-- OffsetY = 0,
+		IsRound = true,
 		SetAllPoints = true,
 	},
 }, true)
@@ -4064,6 +4084,7 @@ MSQ:AddSkin("Hex Clean Soft", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0,
+		IsRound = true,
 		-- SetAllPoints = nil,
 	},
 	ChargeCooldown = {
@@ -4073,12 +4094,13 @@ MSQ:AddSkin("Hex Clean Soft", {
 		-- RelPoint = "CENTER",
 		-- OffsetX = 0,
 		-- OffsetY = 0,
+		IsRound = true,
 		SetAllPoints = true,
 	},
 }, true)
 
 MSQ:AddSkin("Hex Clean Soft Rotated", {
-	Shape = "HexagonRotated",
+	Shape = "Hexagon-Rotated",
 	Masque_Version = 80200,
 
 	-- Skin
@@ -4449,6 +4471,7 @@ MSQ:AddSkin("Hex Clean Soft Rotated", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0,
+		IsRound = true,
 		-- SetAllPoints = nil,
 	},
 	ChargeCooldown = {
@@ -4458,6 +4481,7 @@ MSQ:AddSkin("Hex Clean Soft Rotated", {
 		-- RelPoint = "CENTER",
 		-- OffsetX = 0,
 		-- OffsetY = 0,
+		IsRound = true,
 		SetAllPoints = true,
 	},
 }, true)
