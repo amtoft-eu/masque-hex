@@ -45,6 +45,7 @@ MSQ:AddSkin("Hex AmtoftEU", {
 		OffsetY = 0,
 	},
 	Icon = {
+		Texture = [[Interface\Icons\INV_Misc_Bag_08]],
 		Width = 36,
 		Height = 36,
 		TexCoords = {0.07,0.93,0.07,0.93},
@@ -60,6 +61,7 @@ MSQ:AddSkin("Hex AmtoftEU", {
 		--OffsetY = 0,
 		-- SetAllPoints = nil,
 	},
+	SlotIcon = "Icon",
 	Shadow = {
 		Texture = [[Interface\AddOns\masque-hex\Textures\hex_shadow]],
 		-- TexCoords = {0, 1, 0, 1},
@@ -436,6 +438,7 @@ MSQ:AddSkin("Hex AmtoftEU Rotated", {
 		OffsetY = 0,
 	},
 	Icon = {
+		Texture = [[Interface\Icons\INV_Misc_Bag_08]],
 		Width = 36,
 		Height = 36,
 		TexCoords = {0.07,0.93,0.07,0.93},
@@ -451,6 +454,7 @@ MSQ:AddSkin("Hex AmtoftEU Rotated", {
 		--OffsetY = 0,
 		-- SetAllPoints = nil,
 	},
+	SlotIcon = "Icon",
 	Shadow = {
 		Texture = [[Interface\AddOns\masque-hex\Textures\hex_shadow_rotate]],
 		-- TexCoords = {0, 1, 0, 1},
@@ -827,6 +831,7 @@ MSQ:AddSkin("Hex AmtoftEU Clean", {
 		OffsetY = 0,
 	},
 	Icon = {
+		Texture = [[Interface\Icons\INV_Misc_Bag_08]],
 		Width = 41,
 		Height = 41,
 		TexCoords = {0.07,0.93,0.07,0.93},
@@ -842,6 +847,7 @@ MSQ:AddSkin("Hex AmtoftEU Clean", {
 		--OffsetY = 0,
 		-- SetAllPoints = nil,
 	},
+	SlotIcon = "Icon",
 	-- Shadow = {
 	-- 	Texture = [[Interface\AddOns\masque-hex\Textures\hex_shadow_rotate]],
 	-- 	-- TexCoords = {0, 1, 0, 1},
@@ -1218,6 +1224,7 @@ MSQ:AddSkin("Hex AmtoftEU Clean Rotated", {
 		OffsetY = 0,
 	},
 	Icon = {
+		Texture = [[Interface\Icons\INV_Misc_Bag_08]],
 		Width = 41,
 		Height = 41,
 		TexCoords = {0.07,0.93,0.07,0.93},
@@ -1233,6 +1240,7 @@ MSQ:AddSkin("Hex AmtoftEU Clean Rotated", {
 		--OffsetY = 0,
 		-- SetAllPoints = nil,
 	},
+	SlotIcon = "Icon",
 	-- Shadow = {
 	-- 	Texture = [[Interface\AddOns\masque-hex\Textures\hex_shadow_rotate]],
 	-- 	-- TexCoords = {0, 1, 0, 1},
@@ -1609,6 +1617,7 @@ MSQ:AddSkin("Hex AmtoftEU Black Border", {
 		OffsetY = 0,
 	},
 	Icon = {
+		Texture = [[Interface\Icons\INV_Misc_Bag_08]],
 		Width = 41,
 		Height = 41,
 		TexCoords = {0.07,0.93,0.07,0.93},
@@ -1624,6 +1633,7 @@ MSQ:AddSkin("Hex AmtoftEU Black Border", {
 		--OffsetY = 0,
 		-- SetAllPoints = nil,
 	},
+	SlotIcon = "Icon",
 	-- Shadow = {
 	-- 	Texture = [[Interface\AddOns\masque-hex\Textures\hex_shadow_rotate]],
 	-- 	-- TexCoords = {0, 1, 0, 1},
@@ -2000,6 +2010,7 @@ MSQ:AddSkin("Hex AmtoftEU Black Border Rotated", {
 		OffsetY = 0,
 	},
 	Icon = {
+		Texture = [[Interface\Icons\INV_Misc_Bag_08]],
 		Width = 41,
 		Height = 41,
 		TexCoords = {0.07,0.93,0.07,0.93},
@@ -2015,6 +2026,7 @@ MSQ:AddSkin("Hex AmtoftEU Black Border Rotated", {
 		--OffsetY = 0,
 		-- SetAllPoints = nil,
 	},
+	SlotIcon = "Icon",
 	-- Shadow = {
 	-- 	Texture = [[Interface\AddOns\masque-hex\Textures\hex_shadow_rotate]],
 	-- 	-- TexCoords = {0, 1, 0, 1},
@@ -2391,6 +2403,7 @@ MSQ:AddSkin("Hex Soft", {
 		OffsetY = 0,
 	},
 	Icon = {
+		Texture = [[Interface\Icons\INV_Misc_Bag_08]],
 		Width = 36,
 		Height = 36,
 		TexCoords = {0.07,0.93,0.07,0.93},
@@ -2406,6 +2419,7 @@ MSQ:AddSkin("Hex Soft", {
 		--OffsetY = 0,
 		-- SetAllPoints = nil,
 	},
+	SlotIcon = "Icon",
 	Shadow = {
 		Texture = [[Interface\AddOns\masque-hex\Textures\Soft\Regular\NS\hex_shadow]],
 		-- TexCoords = {0, 1, 0, 1},
@@ -2782,6 +2796,7 @@ MSQ:AddSkin("Hex Soft Rotated", {
 		OffsetY = 0,
 	},
 	Icon = {
+		Texture = [[Interface\Icons\INV_Misc_Bag_08]],
 		Width = 36,
 		Height = 36,
 		TexCoords = {0.07,0.93,0.07,0.93},
@@ -2797,6 +2812,7 @@ MSQ:AddSkin("Hex Soft Rotated", {
 		--OffsetY = 0,
 		-- SetAllPoints = nil,
 	},
+	SlotIcon = "Icon",
 	Shadow = {
 		Texture = [[Interface\AddOns\masque-hex\Textures\Soft\Regular\EW\hex_shadow]],
 		-- TexCoords = {0, 1, 0, 1},
@@ -3173,6 +3189,7 @@ MSQ:AddSkin("Hex Black Border Soft", {
 		OffsetY = 0,
 	},
 	Icon = {
+		Texture = [[Interface\Icons\INV_Misc_Bag_08]],
 		Width = 41,
 		Height = 41,
 		TexCoords = {0.07,0.93,0.07,0.93},
@@ -3188,6 +3205,7 @@ MSQ:AddSkin("Hex Black Border Soft", {
 		--OffsetY = 0,
 		-- SetAllPoints = nil,
 	},
+	SlotIcon = "Icon",
 	Normal = {
 		Texture = [[Interface\AddOns\masque-hex\Textures\Soft\Black\NS\hex_normal_black]],
 		-- TexCoords = {0, 1, 0, 1},
@@ -3473,6 +3491,7 @@ MSQ:AddSkin("Hex Black Border Soft Rotated", {
 		OffsetY = 0,
 	},
 	Icon = {
+		Texture = [[Interface\Icons\INV_Misc_Bag_08]],
 		Width = 41,
 		Height = 41,
 		TexCoords = {0.07,0.93,0.07,0.93},
@@ -3488,6 +3507,7 @@ MSQ:AddSkin("Hex Black Border Soft Rotated", {
 		--OffsetY = 0,
 		-- SetAllPoints = nil,
 	},
+	SlotIcon = "Icon",
 	Normal = {
 		Texture = [[Interface\AddOns\masque-hex\Textures\Soft\Black\EW\hex_normal_black]],
 		-- TexCoords = {0, 1, 0, 1},
@@ -3773,6 +3793,7 @@ MSQ:AddSkin("Hex Clean Soft", {
 		OffsetY = 0,
 	},
 	Icon = {
+		Texture = [[Interface\Icons\INV_Misc_Bag_08]],
 		Width = 41,
 		Height = 41,
 		TexCoords = {0.07,0.93,0.07,0.93},
@@ -3788,6 +3809,7 @@ MSQ:AddSkin("Hex Clean Soft", {
 		--OffsetY = 0,
 		-- SetAllPoints = nil,
 	},
+	SlotIcon = "Icon",
 	-- Shadow = {
 	-- 	Texture = [[Interface\AddOns\masque-hex\Textures\Soft\Clean\NS\hex_shadow_rotate]],
 	-- 	-- TexCoords = {0, 1, 0, 1},
@@ -4164,6 +4186,7 @@ MSQ:AddSkin("Hex Clean Soft Rotated", {
 		OffsetY = 0,
 	},
 	Icon = {
+		Texture = [[Interface\Icons\INV_Misc_Bag_08]],
 		Width = 41,
 		Height = 41,
 		TexCoords = {0.07,0.93,0.07,0.93},
@@ -4179,6 +4202,7 @@ MSQ:AddSkin("Hex Clean Soft Rotated", {
 		--OffsetY = 0,
 		-- SetAllPoints = nil,
 	},
+	SlotIcon = "Icon",
 	-- Shadow = {
 	-- 	Texture = [[Interface\AddOns\masque-hex\Textures\Soft\Clean\EW\hex_shadow_rotate]],
 	-- 	-- TexCoords = {0, 1, 0, 1},
