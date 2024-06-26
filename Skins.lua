@@ -9,24 +9,24 @@ local glow_rotated = [[Interface\AddOns\masque-hex\Textures\IconAlert\hex_icon_a
 local ants_rotated = [[Interface\AddOns\masque-hex\Textures\IconAlert\hex_ants_rotated]]
 
 MSQ:AddSpellAlert("Hexagon", glow, ants)
-MSQ:AddSpellAlert("HexagonRotated", glow_rotated, ants_rotated)
+MSQ:AddSpellAlert("Hexagon-Rotated", glow_rotated, ants_rotated)
 
 local AddOn, Core = ...
 
-
 -- Skin Info
-local Version = GetAddOnMetadata(AddOn, "Version")
+local Version = C_AddOns.GetAddOnMetadata(AddOn, "Version")
 local Websites = {
 	"https://github.com/amtoft-eu/masque-hex",
 	"https://www.curseforge.com/wow/addons/masque-hex",
 }
+
 ----------------------------------------
 -- Hex
 ---
 
 MSQ:AddSkin("Hex AmtoftEU", {
 	Shape = "Hexagon",
-	Masque_Version = 80200,
+	API_VERSION = 100207,
 
 	-- Skin
 	-- Mask = nil,
@@ -396,23 +396,28 @@ MSQ:AddSkin("Hex AmtoftEU", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0,
+		IsRound = true,
 		-- SetAllPoints = nil,
 	},
 	ChargeCooldown = {
-		Width = 32,
-		Height = 32,
-		-- Point = "CENTER",
-		-- RelPoint = "CENTER",
-		-- OffsetX = 0,
-		-- OffsetY = 0,
-		SetAllPoints = true,
+		Width = 30,
+		Height = 30,
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
+		OffsetY = 0,
+		IsRound = true,
+		--SetAllPoints = nil,
+	},
+	SpellAlert = {
+		Height = 34,
+		Width = 34,
 	},
 }, true)
 
-
 MSQ:AddSkin("Hex AmtoftEU Rotated", {
-	Shape = "HexagonRotated",
-	Masque_Version = 80200,
+	Shape = "Hexagon-Rotated",
+	API_VERSION = 100207,
 
 	-- Skin
 	-- Mask = nil,
@@ -782,22 +787,28 @@ MSQ:AddSkin("Hex AmtoftEU Rotated", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0,
+		IsRound = true,
 		-- SetAllPoints = nil,
 	},
 	ChargeCooldown = {
-		Width = 32,
-		Height = 32,
-		-- Point = "CENTER",
-		-- RelPoint = "CENTER",
-		-- OffsetX = 0,
-		-- OffsetY = 0,
-		SetAllPoints = true,
+		Width = 30,
+		Height = 30,
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
+		OffsetY = 0,
+		IsRound = true,
+		-- SetAllPoints = nil,
+	},
+	SpellAlert = {
+		Height = 34,
+		Width = 34,
 	},
 }, true)
 
 MSQ:AddSkin("Hex AmtoftEU Clean", {
 	Shape = "Hexagon",
-	Masque_Version = 80200,
+	API_VERSION = 100207,
 
 	-- Skin
 	-- Mask = nil,
@@ -1167,23 +1178,28 @@ MSQ:AddSkin("Hex AmtoftEU Clean", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0,
+		IsRound = true,
 		-- SetAllPoints = nil,
 	},
 	ChargeCooldown = {
-		Width = 32,
-		Height = 32,
-		-- Point = "CENTER",
-		-- RelPoint = "CENTER",
-		-- OffsetX = 0,
-		-- OffsetY = 0,
-		SetAllPoints = true,
+		Width = 34,
+		Height = 34,
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
+		OffsetY = 0,
+		IsRound = true,
+		-- SetAllPoints = nil,
+	},
+	SpellAlert = {
+		Height = 34,
+		Width = 34,
 	},
 }, true)
 
-
 MSQ:AddSkin("Hex AmtoftEU Clean Rotated", {
-	Shape = "HexagonRotated",
-	Masque_Version = 80200,
+	Shape = "Hexagon-Rotated",
+	API_VERSION = 100207,
 
 	-- Skin
 	-- Mask = nil,
@@ -1553,23 +1569,28 @@ MSQ:AddSkin("Hex AmtoftEU Clean Rotated", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0,
+		IsRound = true,
 		-- SetAllPoints = nil,
 	},
 	ChargeCooldown = {
-		Width = 32,
-		Height = 32,
-		-- Point = "CENTER",
-		-- RelPoint = "CENTER",
-		-- OffsetX = 0,
-		-- OffsetY = 0,
-		SetAllPoints = true,
+		Width = 34,
+		Height = 34,
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
+		OffsetY = 0,
+		IsRound = true,
+		-- SetAllPoints = nil,
+	},
+	SpellAlert = {
+		Height = 34,
+		Width = 34,
 	},
 }, true)
 
-
 MSQ:AddSkin("Hex AmtoftEU Black Border", {
 	Shape = "Hexagon",
-	Masque_Version = 80200,
+	API_VERSION = 100207,
 
 	-- Skin
 	-- Mask = nil,
@@ -1939,23 +1960,28 @@ MSQ:AddSkin("Hex AmtoftEU Black Border", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0,
+		IsRound = true,
 		-- SetAllPoints = nil,
 	},
 	ChargeCooldown = {
-		Width = 32,
-		Height = 32,
-		-- Point = "CENTER",
-		-- RelPoint = "CENTER",
-		-- OffsetX = 0,
-		-- OffsetY = 0,
-		SetAllPoints = true,
+		Width = 34,
+		Height = 34,
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
+		OffsetY = 0,
+		IsRound = true,
+		-- SetAllPoints = nil,
+	},
+	SpellAlert = {
+		Height = 36,
+		Width = 36,
 	},
 }, true)
 
-
 MSQ:AddSkin("Hex AmtoftEU Black Border Rotated", {
-	Shape = "HexagonRotated",
-	Masque_Version = 80200,
+	Shape = "Hexagon-Rotated",
+	API_VERSION = 100207,
 
 	-- Skin
 	-- Mask = nil,
@@ -2325,22 +2351,28 @@ MSQ:AddSkin("Hex AmtoftEU Black Border Rotated", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0,
+		IsRound = true,
 		-- SetAllPoints = nil,
 	},
 	ChargeCooldown = {
-		Width = 32,
-		Height = 32,
-		-- Point = "CENTER",
-		-- RelPoint = "CENTER",
-		-- OffsetX = 0,
-		-- OffsetY = 0,
-		SetAllPoints = true,
+		Width = 34,
+		Height = 34,
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
+		OffsetY = 0,
+		IsRound = true,
+		-- SetAllPoints = nil,
+	},
+	SpellAlert = {
+		Height = 36,
+		Width = 36,
 	},
 }, true)
 
 MSQ:AddSkin("Hex Soft", {
 	Shape = "Hexagon",
-	Masque_Version = 80200,
+	API_VERSION = 100207,
 
 	-- Skin
 	-- Mask = nil,
@@ -2710,22 +2742,28 @@ MSQ:AddSkin("Hex Soft", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0,
+		IsRound = true,
 		-- SetAllPoints = nil,
 	},
 	ChargeCooldown = {
-		Width = 32,
-		Height = 32,
-		-- Point = "CENTER",
-		-- RelPoint = "CENTER",
-		-- OffsetX = 0,
-		-- OffsetY = 0,
-		SetAllPoints = true,
+		Width = 30,
+		Height = 30,
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
+		OffsetY = 0,
+		IsRound = true,
+		-- SetAllPoints = nil,
+	},
+	SpellAlert = {
+		Height = 34,
+		Width = 34,
 	},
 }, true)
 
 MSQ:AddSkin("Hex Soft Rotated", {
-	Shape = "HexagonRotated",
-	Masque_Version = 80200,
+	Shape = "Hexagon-Rotated",
+	API_VERSION = 100207,
 
 	-- Skin
 	-- Mask = nil,
@@ -3095,22 +3133,28 @@ MSQ:AddSkin("Hex Soft Rotated", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0,
+		IsRound = true,
 		-- SetAllPoints = nil,
 	},
 	ChargeCooldown = {
-		Width = 32,
-		Height = 32,
-		-- Point = "CENTER",
-		-- RelPoint = "CENTER",
-		-- OffsetX = 0,
-		-- OffsetY = 0,
-		SetAllPoints = true,
+		Width = 30,
+		Height = 30,
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
+		OffsetY = 0,
+		IsRound = true,
+		-- SetAllPoints = nil,
+	},
+	SpellAlert = {
+		Height = 34,
+		Width = 34,
 	},
 }, true)
 
 MSQ:AddSkin("Hex Black Border Soft", {
 	Shape = "Hexagon",
-	Masque_Version = 80200,
+	API_VERSION = 100207,
 
 	-- Skin
 	-- Mask = nil,
@@ -3389,22 +3433,28 @@ MSQ:AddSkin("Hex Black Border Soft", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0,
+		IsRound = true,
 		-- SetAllPoints = nil,
 	},
 	ChargeCooldown = {
-		Width = 32,
-		Height = 32,
-		-- Point = "CENTER",
-		-- RelPoint = "CENTER",
-		-- OffsetX = 0,
-		-- OffsetY = 0,
-		SetAllPoints = true,
+		Width = 34,
+		Height = 34,
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
+		OffsetY = 0,
+		IsRound = true,
+		-- SetAllPoints = nil,
+	},
+	SpellAlert = {
+		Height = 36,
+		Width = 36,
 	},
 }, true)
 
 MSQ:AddSkin("Hex Black Border Soft Rotated", {
-	Shape = "HexagonRotated",
-	Masque_Version = 80200,
+	Shape = "Hexagon-Rotated",
+	API_VERSION = 100207,
 
 	-- Skin
 	-- Mask = nil,
@@ -3683,22 +3733,28 @@ MSQ:AddSkin("Hex Black Border Soft Rotated", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0,
+		IsRound = true,
 		-- SetAllPoints = nil,
 	},
 	ChargeCooldown = {
-		Width = 32,
-		Height = 32,
-		-- Point = "CENTER",
-		-- RelPoint = "CENTER",
-		-- OffsetX = 0,
-		-- OffsetY = 0,
-		SetAllPoints = true,
+		Width = 34,
+		Height = 34,
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
+		OffsetY = 0,
+		IsRound = true,
+		-- SetAllPoints = nil,
+	},
+	SpellAlert = {
+		Height = 36,
+		Width = 36,
 	},
 }, true)
 
 MSQ:AddSkin("Hex Clean Soft", {
 	Shape = "Hexagon",
-	Masque_Version = 80200,
+	API_VERSION = 100207,
 
 	-- Skin
 	-- Mask = nil,
@@ -4068,23 +4124,28 @@ MSQ:AddSkin("Hex Clean Soft", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0,
+		IsRound = true,
 		-- SetAllPoints = nil,
 	},
 	ChargeCooldown = {
-		Width = 32,
-		Height = 32,
-		-- Point = "CENTER",
-		-- RelPoint = "CENTER",
-		-- OffsetX = 0,
-		-- OffsetY = 0,
-		SetAllPoints = true,
+		Width = 34,
+		Height = 34,
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
+		OffsetY = 0,
+		IsRound = true,
+		-- SetAllPoints = nil,
+	},
+	SpellAlert = {
+		Height = 34,
+		Width = 34,
 	},
 }, true)
 
-
 MSQ:AddSkin("Hex Clean Soft Rotated", {
-	Shape = "HexagonRotated",
-	Masque_Version = 80200,
+	Shape = "Hexagon-Rotated",
+	API_VERSION = 100207,
 
 	-- Skin
 	-- Mask = nil,
@@ -4454,15 +4515,21 @@ MSQ:AddSkin("Hex Clean Soft Rotated", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0,
+		IsRound = true,
 		-- SetAllPoints = nil,
 	},
 	ChargeCooldown = {
-		Width = 32,
-		Height = 32,
-		-- Point = "CENTER",
-		-- RelPoint = "CENTER",
-		-- OffsetX = 0,
-		-- OffsetY = 0,
-		SetAllPoints = true,
+		Width = 34,
+		Height = 34,
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
+		OffsetY = 0,
+		IsRound = true,
+		-- SetAllPoints = nil,
+	},
+	SpellAlert = {
+		Height = 34,
+		Width = 34,
 	},
 }, true)
