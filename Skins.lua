@@ -427,6 +427,18 @@ MSQ:AddSkin("Hex AmtoftEU", {
 	SpellAlert = {
 		Height = 34,
 		Width = 34,
+		Classic = {
+			Height = 37,
+			Width = 37,
+		},
+		Modern = {
+			Height = 36,
+			Width = 36,
+		},
+		Thin = {
+			Height = 34,
+			Width = 34,
+		},
 	},
 }, true)
 
@@ -833,6 +845,18 @@ MSQ:AddSkin("Hex AmtoftEU Rotated", {
 	SpellAlert = {
 		Height = 34,
 		Width = 34,
+		Classic = {
+			Height = 37,
+			Width = 37,
+		},
+		Modern = {
+			Height = 36,
+			Width = 36,
+		},
+		Thin = {
+			Height = 34,
+			Width = 34,
+		},
 	},
 }, true)
 
@@ -1239,6 +1263,18 @@ MSQ:AddSkin("Hex AmtoftEU Clean", {
 	SpellAlert = {
 		Height = 34,
 		Width = 34,
+		Classic = {
+			Height = 38,
+			Width = 38,
+		},
+		Modern = {
+			Height = 38,
+			Width = 38,
+		},
+		Thin = {
+			Height = 34,
+			Width = 34,
+		},
 	},
 }, true)
 
@@ -1645,6 +1681,18 @@ MSQ:AddSkin("Hex AmtoftEU Clean Rotated", {
 	SpellAlert = {
 		Height = 34,
 		Width = 34,
+		Classic = {
+			Height = 38,
+			Width = 38,
+		},
+		Modern = {
+			Height = 38,
+			Width = 38,
+		},
+		Thin = {
+			Height = 34,
+			Width = 34,
+		},
 	},
 }, true)
 
@@ -2051,6 +2099,18 @@ MSQ:AddSkin("Hex AmtoftEU Black Border", {
 	SpellAlert = {
 		Height = 36,
 		Width = 36,
+		Classic = {
+			Height = 38,
+			Width = 38,
+		},
+		Modern = {
+			Height = 38,
+			Width = 38,
+		},
+		Thin = {
+			Height = 35,
+			Width = 35,
+		},
 	},
 }, true)
 
@@ -2457,6 +2517,18 @@ MSQ:AddSkin("Hex AmtoftEU Black Border Rotated", {
 	SpellAlert = {
 		Height = 36,
 		Width = 36,
+		Classic = {
+			Height = 38,
+			Width = 38,
+		},
+		Modern = {
+			Height = 38,
+			Width = 38,
+		},
+		Thin = {
+			Height = 35,
+			Width = 35,
+		},
 	},
 }, true)
 
@@ -2863,6 +2935,18 @@ MSQ:AddSkin("Hex Soft", {
 	SpellAlert = {
 		Height = 34,
 		Width = 34,
+		Classic = {
+			Height = 36,
+			Width = 36,
+		},
+		Modern = {
+			Height = 36,
+			Width = 36,
+		},
+		Thin = {
+			Height = 34,
+			Width = 34,
+		},
 	},
 }, true)
 
@@ -3269,6 +3353,18 @@ MSQ:AddSkin("Hex Soft Rotated", {
 	SpellAlert = {
 		Height = 34,
 		Width = 34,
+		Classic = {
+			Height = 36,
+			Width = 36,
+		},
+		Modern = {
+			Height = 36,
+			Width = 36,
+		},
+		Thin = {
+			Height = 34,
+			Width = 34,
+		},
 	},
 }, true)
 
@@ -3584,6 +3680,18 @@ MSQ:AddSkin("Hex Black Border Soft", {
 	SpellAlert = {
 		Height = 36,
 		Width = 36,
+		Classic = {
+			Height = 38,
+			Width = 38,
+		},
+		Modern = {
+			Height = 38,
+			Width = 38,
+		},
+		Thin = {
+			Height = 35,
+			Width = 35,
+		},
 	},
 }, true)
 
@@ -3899,6 +4007,18 @@ MSQ:AddSkin("Hex Black Border Soft Rotated", {
 	SpellAlert = {
 		Height = 36,
 		Width = 36,
+		Classic = {
+			Height = 38,
+			Width = 38,
+		},
+		Modern = {
+			Height = 38,
+			Width = 38,
+		},
+		Thin = {
+			Height = 35,
+			Width = 35,
+		},
 	},
 }, true)
 
@@ -4305,6 +4425,18 @@ MSQ:AddSkin("Hex Clean Soft", {
 	SpellAlert = {
 		Height = 34,
 		Width = 34,
+		Classic = {
+			Height = 38,
+			Width = 38,
+		},
+		Modern = {
+			Height = 38,
+			Width = 38,
+		},
+		Thin = {
+			Height = 34,
+			Width = 34,
+		},
 	},
 }, true)
 
@@ -4711,5 +4843,17 @@ MSQ:AddSkin("Hex Clean Soft Rotated", {
 	SpellAlert = {
 		Height = 34,
 		Width = 34,
+		Classic = {
+			Height = 38,
+			Width = 38,
+		},
+		Modern = {
+			Height = 38,
+			Width = 38,
+		},
+		Thin = {
+			Height = 34,
+			Width = 34,
+		},
 	},
 }, true)
