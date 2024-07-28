@@ -26,7 +26,7 @@ local Websites = {
 
 MSQ:AddSkin("Hex AmtoftEU", {
 	Shape = "Hexagon",
-	API_VERSION = 100207,
+	API_VERSION = 110000,
 
 	-- Skin
 	-- Mask = nil,
@@ -45,6 +45,7 @@ MSQ:AddSkin("Hex AmtoftEU", {
 		OffsetY = 0,
 	},
 	Icon = {
+		Texture = [[Interface\Icons\INV_Misc_Bag_08]],
 		Width = 36,
 		Height = 36,
 		TexCoords = {0.07,0.93,0.07,0.93},
@@ -60,6 +61,7 @@ MSQ:AddSkin("Hex AmtoftEU", {
 		--OffsetY = 0,
 		-- SetAllPoints = nil,
 	},
+	SlotIcon = "Icon",
 	Shadow = {
 		Texture = [[Interface\AddOns\masque-hex\Textures\hex_shadow]],
 		-- TexCoords = {0, 1, 0, 1},
@@ -378,6 +380,19 @@ MSQ:AddSkin("Hex AmtoftEU", {
 		-- UseColor = nil,
 		-- SetAllPoints = nil,
 	},
+	AutoCast_Mask = {
+		-- Atlas = "UI-HUD-ActionBar-PetAutoCast-Mask",
+		-- UseAtlasSize = false,
+		Texture = [[Interface\AddOns\Masque\Textures\Hexagon\AutoCast-Mask]],
+		-- TexCoords = {0, 1, 0, 1},
+		Width = 36, -- 23
+		Height = 36, -- 23
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
+		OffsetY = 0.5,
+		-- SetAllPoints = nil,
+	},
 	AutoCastShine = {
 		Width = 35,
 		Height = 35,
@@ -412,6 +427,18 @@ MSQ:AddSkin("Hex AmtoftEU", {
 	SpellAlert = {
 		Height = 34,
 		Width = 34,
+		Classic = {
+			Height = 37,
+			Width = 37,
+		},
+		Modern = {
+			Height = 36,
+			Width = 36,
+		},
+		Thin = {
+			Height = 34,
+			Width = 34,
+		},
 	},
 }, true)
 
@@ -436,6 +463,7 @@ MSQ:AddSkin("Hex AmtoftEU Rotated", {
 		OffsetY = 0,
 	},
 	Icon = {
+		Texture = [[Interface\Icons\INV_Misc_Bag_08]],
 		Width = 36,
 		Height = 36,
 		TexCoords = {0.07,0.93,0.07,0.93},
@@ -451,6 +479,7 @@ MSQ:AddSkin("Hex AmtoftEU Rotated", {
 		--OffsetY = 0,
 		-- SetAllPoints = nil,
 	},
+	SlotIcon = "Icon",
 	Shadow = {
 		Texture = [[Interface\AddOns\masque-hex\Textures\hex_shadow_rotate]],
 		-- TexCoords = {0, 1, 0, 1},
@@ -769,6 +798,19 @@ MSQ:AddSkin("Hex AmtoftEU Rotated", {
 		-- UseColor = nil,
 		-- SetAllPoints = nil,
 	},
+	AutoCast_Mask = {
+		-- Atlas = "UI-HUD-ActionBar-PetAutoCast-Mask",
+		-- UseAtlasSize = false,
+		Texture = [[Interface\AddOns\Masque\Textures\Hexagon-Rotated\AutoCast-Mask]],
+		-- TexCoords = {0, 1, 0, 1},
+		Width = 36, -- 23
+		Height = 36, -- 23
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
+		OffsetY = 0.5,
+		-- SetAllPoints = nil,
+	},
 	AutoCastShine = {
 		Width = 35,
 		Height = 35,
@@ -803,6 +845,18 @@ MSQ:AddSkin("Hex AmtoftEU Rotated", {
 	SpellAlert = {
 		Height = 34,
 		Width = 34,
+		Classic = {
+			Height = 37,
+			Width = 37,
+		},
+		Modern = {
+			Height = 36,
+			Width = 36,
+		},
+		Thin = {
+			Height = 34,
+			Width = 34,
+		},
 	},
 }, true)
 
@@ -827,6 +881,7 @@ MSQ:AddSkin("Hex AmtoftEU Clean", {
 		OffsetY = 0,
 	},
 	Icon = {
+		Texture = [[Interface\Icons\INV_Misc_Bag_08]],
 		Width = 41,
 		Height = 41,
 		TexCoords = {0.07,0.93,0.07,0.93},
@@ -842,6 +897,7 @@ MSQ:AddSkin("Hex AmtoftEU Clean", {
 		--OffsetY = 0,
 		-- SetAllPoints = nil,
 	},
+	SlotIcon = "Icon",
 	-- Shadow = {
 	-- 	Texture = [[Interface\AddOns\masque-hex\Textures\hex_shadow_rotate]],
 	-- 	-- TexCoords = {0, 1, 0, 1},
@@ -1160,6 +1216,19 @@ MSQ:AddSkin("Hex AmtoftEU Clean", {
 		-- UseColor = nil,
 		-- SetAllPoints = nil,
 	},
+	AutoCast_Mask = {
+		-- Atlas = "UI-HUD-ActionBar-PetAutoCast-Mask",
+		-- UseAtlasSize = false,
+		Texture = [[Interface\AddOns\Masque\Textures\Hexagon\AutoCast-Mask]],
+		-- TexCoords = {0, 1, 0, 1},
+		Width = 36, -- 23
+		Height = 36, -- 23
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
+		OffsetY = 0.5,
+		-- SetAllPoints = nil,
+	},
 	AutoCastShine = {
 		Width = 35,
 		Height = 35,
@@ -1194,6 +1263,18 @@ MSQ:AddSkin("Hex AmtoftEU Clean", {
 	SpellAlert = {
 		Height = 34,
 		Width = 34,
+		Classic = {
+			Height = 38,
+			Width = 38,
+		},
+		Modern = {
+			Height = 38,
+			Width = 38,
+		},
+		Thin = {
+			Height = 34,
+			Width = 34,
+		},
 	},
 }, true)
 
@@ -1218,6 +1299,7 @@ MSQ:AddSkin("Hex AmtoftEU Clean Rotated", {
 		OffsetY = 0,
 	},
 	Icon = {
+		Texture = [[Interface\Icons\INV_Misc_Bag_08]],
 		Width = 41,
 		Height = 41,
 		TexCoords = {0.07,0.93,0.07,0.93},
@@ -1233,6 +1315,7 @@ MSQ:AddSkin("Hex AmtoftEU Clean Rotated", {
 		--OffsetY = 0,
 		-- SetAllPoints = nil,
 	},
+	SlotIcon = "Icon",
 	-- Shadow = {
 	-- 	Texture = [[Interface\AddOns\masque-hex\Textures\hex_shadow_rotate]],
 	-- 	-- TexCoords = {0, 1, 0, 1},
@@ -1551,6 +1634,19 @@ MSQ:AddSkin("Hex AmtoftEU Clean Rotated", {
 		-- UseColor = nil,
 		-- SetAllPoints = nil,
 	},
+	AutoCast_Mask = {
+		-- Atlas = "UI-HUD-ActionBar-PetAutoCast-Mask",
+		-- UseAtlasSize = false,
+		Texture = [[Interface\AddOns\Masque\Textures\Hexagon-Rotated\AutoCast-Mask]],
+		-- TexCoords = {0, 1, 0, 1},
+		Width = 36, -- 23
+		Height = 36, -- 23
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
+		OffsetY = 0.5,
+		-- SetAllPoints = nil,
+	},
 	AutoCastShine = {
 		Width = 35,
 		Height = 35,
@@ -1585,6 +1681,18 @@ MSQ:AddSkin("Hex AmtoftEU Clean Rotated", {
 	SpellAlert = {
 		Height = 34,
 		Width = 34,
+		Classic = {
+			Height = 38,
+			Width = 38,
+		},
+		Modern = {
+			Height = 38,
+			Width = 38,
+		},
+		Thin = {
+			Height = 34,
+			Width = 34,
+		},
 	},
 }, true)
 
@@ -1609,6 +1717,7 @@ MSQ:AddSkin("Hex AmtoftEU Black Border", {
 		OffsetY = 0,
 	},
 	Icon = {
+		Texture = [[Interface\Icons\INV_Misc_Bag_08]],
 		Width = 41,
 		Height = 41,
 		TexCoords = {0.07,0.93,0.07,0.93},
@@ -1624,6 +1733,7 @@ MSQ:AddSkin("Hex AmtoftEU Black Border", {
 		--OffsetY = 0,
 		-- SetAllPoints = nil,
 	},
+	SlotIcon = "Icon",
 	-- Shadow = {
 	-- 	Texture = [[Interface\AddOns\masque-hex\Textures\hex_shadow_rotate]],
 	-- 	-- TexCoords = {0, 1, 0, 1},
@@ -1942,6 +2052,19 @@ MSQ:AddSkin("Hex AmtoftEU Black Border", {
 		-- UseColor = nil,
 		-- SetAllPoints = nil,
 	},
+	AutoCast_Mask = {
+		-- Atlas = "UI-HUD-ActionBar-PetAutoCast-Mask",
+		-- UseAtlasSize = false,
+		Texture = [[Interface\AddOns\Masque\Textures\Hexagon\AutoCast-Mask]],
+		-- TexCoords = {0, 1, 0, 1},
+		Width = 36, -- 23
+		Height = 36, -- 23
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
+		OffsetY = 0.5,
+		-- SetAllPoints = nil,
+	},
 	AutoCastShine = {
 		Width = 35,
 		Height = 35,
@@ -1976,6 +2099,18 @@ MSQ:AddSkin("Hex AmtoftEU Black Border", {
 	SpellAlert = {
 		Height = 36,
 		Width = 36,
+		Classic = {
+			Height = 38,
+			Width = 38,
+		},
+		Modern = {
+			Height = 38,
+			Width = 38,
+		},
+		Thin = {
+			Height = 35,
+			Width = 35,
+		},
 	},
 }, true)
 
@@ -2000,6 +2135,7 @@ MSQ:AddSkin("Hex AmtoftEU Black Border Rotated", {
 		OffsetY = 0,
 	},
 	Icon = {
+		Texture = [[Interface\Icons\INV_Misc_Bag_08]],
 		Width = 41,
 		Height = 41,
 		TexCoords = {0.07,0.93,0.07,0.93},
@@ -2015,6 +2151,7 @@ MSQ:AddSkin("Hex AmtoftEU Black Border Rotated", {
 		--OffsetY = 0,
 		-- SetAllPoints = nil,
 	},
+	SlotIcon = "Icon",
 	-- Shadow = {
 	-- 	Texture = [[Interface\AddOns\masque-hex\Textures\hex_shadow_rotate]],
 	-- 	-- TexCoords = {0, 1, 0, 1},
@@ -2333,6 +2470,19 @@ MSQ:AddSkin("Hex AmtoftEU Black Border Rotated", {
 		-- UseColor = nil,
 		-- SetAllPoints = nil,
 	},
+	AutoCast_Mask = {
+		-- Atlas = "UI-HUD-ActionBar-PetAutoCast-Mask",
+		-- UseAtlasSize = false,
+		Texture = [[Interface\AddOns\Masque\Textures\Hexagon-Rotated\AutoCast-Mask]],
+		-- TexCoords = {0, 1, 0, 1},
+		Width = 36, -- 23
+		Height = 36, -- 23
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
+		OffsetY = 0.5,
+		-- SetAllPoints = nil,
+	},
 	AutoCastShine = {
 		Width = 35,
 		Height = 35,
@@ -2367,6 +2517,18 @@ MSQ:AddSkin("Hex AmtoftEU Black Border Rotated", {
 	SpellAlert = {
 		Height = 36,
 		Width = 36,
+		Classic = {
+			Height = 38,
+			Width = 38,
+		},
+		Modern = {
+			Height = 38,
+			Width = 38,
+		},
+		Thin = {
+			Height = 35,
+			Width = 35,
+		},
 	},
 }, true)
 
@@ -2391,6 +2553,7 @@ MSQ:AddSkin("Hex Soft", {
 		OffsetY = 0,
 	},
 	Icon = {
+		Texture = [[Interface\Icons\INV_Misc_Bag_08]],
 		Width = 36,
 		Height = 36,
 		TexCoords = {0.07,0.93,0.07,0.93},
@@ -2406,6 +2569,7 @@ MSQ:AddSkin("Hex Soft", {
 		--OffsetY = 0,
 		-- SetAllPoints = nil,
 	},
+	SlotIcon = "Icon",
 	Shadow = {
 		Texture = [[Interface\AddOns\masque-hex\Textures\Soft\Regular\NS\hex_shadow]],
 		-- TexCoords = {0, 1, 0, 1},
@@ -2724,6 +2888,19 @@ MSQ:AddSkin("Hex Soft", {
 		-- UseColor = nil,
 		-- SetAllPoints = nil,
 	},
+	AutoCast_Mask = {
+		-- Atlas = "UI-HUD-ActionBar-PetAutoCast-Mask",
+		-- UseAtlasSize = false,
+		Texture = [[Interface\AddOns\Masque\Textures\Hexagon\AutoCast-Mask]],
+		-- TexCoords = {0, 1, 0, 1},
+		Width = 36, -- 23
+		Height = 36, -- 23
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
+		OffsetY = 0.5,
+		-- SetAllPoints = nil,
+	},
 	AutoCastShine = {
 		Width = 35,
 		Height = 35,
@@ -2758,6 +2935,18 @@ MSQ:AddSkin("Hex Soft", {
 	SpellAlert = {
 		Height = 34,
 		Width = 34,
+		Classic = {
+			Height = 36,
+			Width = 36,
+		},
+		Modern = {
+			Height = 36,
+			Width = 36,
+		},
+		Thin = {
+			Height = 34,
+			Width = 34,
+		},
 	},
 }, true)
 
@@ -2782,6 +2971,7 @@ MSQ:AddSkin("Hex Soft Rotated", {
 		OffsetY = 0,
 	},
 	Icon = {
+		Texture = [[Interface\Icons\INV_Misc_Bag_08]],
 		Width = 36,
 		Height = 36,
 		TexCoords = {0.07,0.93,0.07,0.93},
@@ -2797,6 +2987,7 @@ MSQ:AddSkin("Hex Soft Rotated", {
 		--OffsetY = 0,
 		-- SetAllPoints = nil,
 	},
+	SlotIcon = "Icon",
 	Shadow = {
 		Texture = [[Interface\AddOns\masque-hex\Textures\Soft\Regular\EW\hex_shadow]],
 		-- TexCoords = {0, 1, 0, 1},
@@ -3115,6 +3306,19 @@ MSQ:AddSkin("Hex Soft Rotated", {
 		-- UseColor = nil,
 		-- SetAllPoints = nil,
 	},
+	AutoCast_Mask = {
+		-- Atlas = "UI-HUD-ActionBar-PetAutoCast-Mask",
+		-- UseAtlasSize = false,
+		Texture = [[Interface\AddOns\Masque\Textures\Hexagon-Rotated\AutoCast-Mask]],
+		-- TexCoords = {0, 1, 0, 1},
+		Width = 36, -- 23
+		Height = 36, -- 23
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
+		OffsetY = 0.5,
+		-- SetAllPoints = nil,
+	},
 	AutoCastShine = {
 		Width = 35,
 		Height = 35,
@@ -3149,6 +3353,18 @@ MSQ:AddSkin("Hex Soft Rotated", {
 	SpellAlert = {
 		Height = 34,
 		Width = 34,
+		Classic = {
+			Height = 36,
+			Width = 36,
+		},
+		Modern = {
+			Height = 36,
+			Width = 36,
+		},
+		Thin = {
+			Height = 34,
+			Width = 34,
+		},
 	},
 }, true)
 
@@ -3173,6 +3389,7 @@ MSQ:AddSkin("Hex Black Border Soft", {
 		OffsetY = 0,
 	},
 	Icon = {
+		Texture = [[Interface\Icons\INV_Misc_Bag_08]],
 		Width = 41,
 		Height = 41,
 		TexCoords = {0.07,0.93,0.07,0.93},
@@ -3188,6 +3405,7 @@ MSQ:AddSkin("Hex Black Border Soft", {
 		--OffsetY = 0,
 		-- SetAllPoints = nil,
 	},
+	SlotIcon = "Icon",
 	Normal = {
 		Texture = [[Interface\AddOns\masque-hex\Textures\Soft\Black\NS\hex_normal_black]],
 		-- TexCoords = {0, 1, 0, 1},
@@ -3415,6 +3633,19 @@ MSQ:AddSkin("Hex Black Border Soft", {
 		-- UseColor = nil,
 		-- SetAllPoints = nil,
 	},
+	AutoCast_Mask = {
+		-- Atlas = "UI-HUD-ActionBar-PetAutoCast-Mask",
+		-- UseAtlasSize = false,
+		Texture = [[Interface\AddOns\Masque\Textures\Hexagon\AutoCast-Mask]],
+		-- TexCoords = {0, 1, 0, 1},
+		Width = 36, -- 23
+		Height = 36, -- 23
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
+		OffsetY = 0.5,
+		-- SetAllPoints = nil,
+	},
 	AutoCastShine = {
 		Width = 35,
 		Height = 35,
@@ -3449,6 +3680,18 @@ MSQ:AddSkin("Hex Black Border Soft", {
 	SpellAlert = {
 		Height = 36,
 		Width = 36,
+		Classic = {
+			Height = 38,
+			Width = 38,
+		},
+		Modern = {
+			Height = 38,
+			Width = 38,
+		},
+		Thin = {
+			Height = 35,
+			Width = 35,
+		},
 	},
 }, true)
 
@@ -3473,6 +3716,7 @@ MSQ:AddSkin("Hex Black Border Soft Rotated", {
 		OffsetY = 0,
 	},
 	Icon = {
+		Texture = [[Interface\Icons\INV_Misc_Bag_08]],
 		Width = 41,
 		Height = 41,
 		TexCoords = {0.07,0.93,0.07,0.93},
@@ -3488,6 +3732,7 @@ MSQ:AddSkin("Hex Black Border Soft Rotated", {
 		--OffsetY = 0,
 		-- SetAllPoints = nil,
 	},
+	SlotIcon = "Icon",
 	Normal = {
 		Texture = [[Interface\AddOns\masque-hex\Textures\Soft\Black\EW\hex_normal_black]],
 		-- TexCoords = {0, 1, 0, 1},
@@ -3715,6 +3960,19 @@ MSQ:AddSkin("Hex Black Border Soft Rotated", {
 		-- UseColor = nil,
 		-- SetAllPoints = nil,
 	},
+	AutoCast_Mask = {
+		-- Atlas = "UI-HUD-ActionBar-PetAutoCast-Mask",
+		-- UseAtlasSize = false,
+		Texture = [[Interface\AddOns\Masque\Textures\Hexagon-Rotated\AutoCast-Mask]],
+		-- TexCoords = {0, 1, 0, 1},
+		Width = 36, -- 23
+		Height = 36, -- 23
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
+		OffsetY = 0.5,
+		-- SetAllPoints = nil,
+	},
 	AutoCastShine = {
 		Width = 35,
 		Height = 35,
@@ -3749,6 +4007,18 @@ MSQ:AddSkin("Hex Black Border Soft Rotated", {
 	SpellAlert = {
 		Height = 36,
 		Width = 36,
+		Classic = {
+			Height = 38,
+			Width = 38,
+		},
+		Modern = {
+			Height = 38,
+			Width = 38,
+		},
+		Thin = {
+			Height = 35,
+			Width = 35,
+		},
 	},
 }, true)
 
@@ -3773,6 +4043,7 @@ MSQ:AddSkin("Hex Clean Soft", {
 		OffsetY = 0,
 	},
 	Icon = {
+		Texture = [[Interface\Icons\INV_Misc_Bag_08]],
 		Width = 41,
 		Height = 41,
 		TexCoords = {0.07,0.93,0.07,0.93},
@@ -3788,6 +4059,7 @@ MSQ:AddSkin("Hex Clean Soft", {
 		--OffsetY = 0,
 		-- SetAllPoints = nil,
 	},
+	SlotIcon = "Icon",
 	-- Shadow = {
 	-- 	Texture = [[Interface\AddOns\masque-hex\Textures\Soft\Clean\NS\hex_shadow_rotate]],
 	-- 	-- TexCoords = {0, 1, 0, 1},
@@ -4106,6 +4378,19 @@ MSQ:AddSkin("Hex Clean Soft", {
 		-- UseColor = nil,
 		-- SetAllPoints = nil,
 	},
+	AutoCast_Mask = {
+		-- Atlas = "UI-HUD-ActionBar-PetAutoCast-Mask",
+		-- UseAtlasSize = false,
+		Texture = [[Interface\AddOns\Masque\Textures\Hexagon\AutoCast-Mask]],
+		-- TexCoords = {0, 1, 0, 1},
+		Width = 36, -- 23
+		Height = 36, -- 23
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
+		OffsetY = 0.5,
+		-- SetAllPoints = nil,
+	},
 	AutoCastShine = {
 		Width = 35,
 		Height = 35,
@@ -4140,6 +4425,18 @@ MSQ:AddSkin("Hex Clean Soft", {
 	SpellAlert = {
 		Height = 34,
 		Width = 34,
+		Classic = {
+			Height = 38,
+			Width = 38,
+		},
+		Modern = {
+			Height = 38,
+			Width = 38,
+		},
+		Thin = {
+			Height = 34,
+			Width = 34,
+		},
 	},
 }, true)
 
@@ -4164,6 +4461,7 @@ MSQ:AddSkin("Hex Clean Soft Rotated", {
 		OffsetY = 0,
 	},
 	Icon = {
+		Texture = [[Interface\Icons\INV_Misc_Bag_08]],
 		Width = 41,
 		Height = 41,
 		TexCoords = {0.07,0.93,0.07,0.93},
@@ -4179,6 +4477,7 @@ MSQ:AddSkin("Hex Clean Soft Rotated", {
 		--OffsetY = 0,
 		-- SetAllPoints = nil,
 	},
+	SlotIcon = "Icon",
 	-- Shadow = {
 	-- 	Texture = [[Interface\AddOns\masque-hex\Textures\Soft\Clean\EW\hex_shadow_rotate]],
 	-- 	-- TexCoords = {0, 1, 0, 1},
@@ -4497,6 +4796,19 @@ MSQ:AddSkin("Hex Clean Soft Rotated", {
 		-- UseColor = nil,
 		-- SetAllPoints = nil,
 	},
+	AutoCast_Mask = {
+		-- Atlas = "UI-HUD-ActionBar-PetAutoCast-Mask",
+		-- UseAtlasSize = false,
+		Texture = [[Interface\AddOns\Masque\Textures\Hexagon-Rotated\AutoCast-Mask]],
+		-- TexCoords = {0, 1, 0, 1},
+		Width = 36, -- 23
+		Height = 36, -- 23
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
+		OffsetY = 0.5,
+		-- SetAllPoints = nil,
+	},
 	AutoCastShine = {
 		Width = 35,
 		Height = 35,
@@ -4531,5 +4843,17 @@ MSQ:AddSkin("Hex Clean Soft Rotated", {
 	SpellAlert = {
 		Height = 34,
 		Width = 34,
+		Classic = {
+			Height = 38,
+			Width = 38,
+		},
+		Modern = {
+			Height = 38,
+			Width = 38,
+		},
+		Thin = {
+			Height = 34,
+			Width = 34,
+		},
 	},
 }, true)
