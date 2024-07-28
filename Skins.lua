@@ -26,7 +26,7 @@ local Websites = {
 
 MSQ:AddSkin("Hex AmtoftEU", {
 	Shape = "Hexagon",
-	API_VERSION = 100207,
+	API_VERSION = 110000,
 
 	-- Skin
 	-- Mask = nil,
