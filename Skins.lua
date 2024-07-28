@@ -380,6 +380,19 @@ MSQ:AddSkin("Hex AmtoftEU", {
 		-- UseColor = nil,
 		-- SetAllPoints = nil,
 	},
+	AutoCast_Mask = {
+		-- Atlas = "UI-HUD-ActionBar-PetAutoCast-Mask",
+		-- UseAtlasSize = false,
+		Texture = [[Interface\AddOns\Masque\Textures\Hexagon\AutoCast-Mask]],
+		-- TexCoords = {0, 1, 0, 1},
+		Width = 36, -- 23
+		Height = 36, -- 23
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
+		OffsetY = 0.5,
+		-- SetAllPoints = nil,
+	},
 	AutoCastShine = {
 		Width = 35,
 		Height = 35,
@@ -771,6 +784,19 @@ MSQ:AddSkin("Hex AmtoftEU Rotated", {
 		OffsetX = 0,
 		OffsetY = 0,
 		-- UseColor = nil,
+		-- SetAllPoints = nil,
+	},
+	AutoCast_Mask = {
+		-- Atlas = "UI-HUD-ActionBar-PetAutoCast-Mask",
+		-- UseAtlasSize = false,
+		Texture = [[Interface\AddOns\Masque\Textures\Hexagon-Rotated\AutoCast-Mask]],
+		-- TexCoords = {0, 1, 0, 1},
+		Width = 36, -- 23
+		Height = 36, -- 23
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
+		OffsetY = 0.5,
 		-- SetAllPoints = nil,
 	},
 	AutoCastShine = {
@@ -1166,6 +1192,19 @@ MSQ:AddSkin("Hex AmtoftEU Clean", {
 		-- UseColor = nil,
 		-- SetAllPoints = nil,
 	},
+	AutoCast_Mask = {
+		-- Atlas = "UI-HUD-ActionBar-PetAutoCast-Mask",
+		-- UseAtlasSize = false,
+		Texture = [[Interface\AddOns\Masque\Textures\Hexagon\AutoCast-Mask]],
+		-- TexCoords = {0, 1, 0, 1},
+		Width = 36, -- 23
+		Height = 36, -- 23
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
+		OffsetY = 0.5,
+		-- SetAllPoints = nil,
+	},
 	AutoCastShine = {
 		Width = 35,
 		Height = 35,
@@ -1557,6 +1596,19 @@ MSQ:AddSkin("Hex AmtoftEU Clean Rotated", {
 		OffsetX = 0,
 		OffsetY = 0,
 		-- UseColor = nil,
+		-- SetAllPoints = nil,
+	},
+	AutoCast_Mask = {
+		-- Atlas = "UI-HUD-ActionBar-PetAutoCast-Mask",
+		-- UseAtlasSize = false,
+		Texture = [[Interface\AddOns\Masque\Textures\Hexagon-Rotated\AutoCast-Mask]],
+		-- TexCoords = {0, 1, 0, 1},
+		Width = 36, -- 23
+		Height = 36, -- 23
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
+		OffsetY = 0.5,
 		-- SetAllPoints = nil,
 	},
 	AutoCastShine = {
@@ -1952,6 +2004,19 @@ MSQ:AddSkin("Hex AmtoftEU Black Border", {
 		-- UseColor = nil,
 		-- SetAllPoints = nil,
 	},
+	AutoCast_Mask = {
+		-- Atlas = "UI-HUD-ActionBar-PetAutoCast-Mask",
+		-- UseAtlasSize = false,
+		Texture = [[Interface\AddOns\Masque\Textures\Hexagon\AutoCast-Mask]],
+		-- TexCoords = {0, 1, 0, 1},
+		Width = 36, -- 23
+		Height = 36, -- 23
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
+		OffsetY = 0.5,
+		-- SetAllPoints = nil,
+	},
 	AutoCastShine = {
 		Width = 35,
 		Height = 35,
@@ -2343,6 +2408,19 @@ MSQ:AddSkin("Hex AmtoftEU Black Border Rotated", {
 		OffsetX = 0,
 		OffsetY = 0,
 		-- UseColor = nil,
+		-- SetAllPoints = nil,
+	},
+	AutoCast_Mask = {
+		-- Atlas = "UI-HUD-ActionBar-PetAutoCast-Mask",
+		-- UseAtlasSize = false,
+		Texture = [[Interface\AddOns\Masque\Textures\Hexagon-Rotated\AutoCast-Mask]],
+		-- TexCoords = {0, 1, 0, 1},
+		Width = 36, -- 23
+		Height = 36, -- 23
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
+		OffsetY = 0.5,
 		-- SetAllPoints = nil,
 	},
 	AutoCastShine = {
@@ -2738,6 +2816,19 @@ MSQ:AddSkin("Hex Soft", {
 		-- UseColor = nil,
 		-- SetAllPoints = nil,
 	},
+	AutoCast_Mask = {
+		-- Atlas = "UI-HUD-ActionBar-PetAutoCast-Mask",
+		-- UseAtlasSize = false,
+		Texture = [[Interface\AddOns\Masque\Textures\Hexagon\AutoCast-Mask]],
+		-- TexCoords = {0, 1, 0, 1},
+		Width = 36, -- 23
+		Height = 36, -- 23
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
+		OffsetY = 0.5,
+		-- SetAllPoints = nil,
+	},
 	AutoCastShine = {
 		Width = 35,
 		Height = 35,
@@ -3131,6 +3222,19 @@ MSQ:AddSkin("Hex Soft Rotated", {
 		-- UseColor = nil,
 		-- SetAllPoints = nil,
 	},
+	AutoCast_Mask = {
+		-- Atlas = "UI-HUD-ActionBar-PetAutoCast-Mask",
+		-- UseAtlasSize = false,
+		Texture = [[Interface\AddOns\Masque\Textures\Hexagon-Rotated\AutoCast-Mask]],
+		-- TexCoords = {0, 1, 0, 1},
+		Width = 36, -- 23
+		Height = 36, -- 23
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
+		OffsetY = 0.5,
+		-- SetAllPoints = nil,
+	},
 	AutoCastShine = {
 		Width = 35,
 		Height = 35,
@@ -3433,6 +3537,19 @@ MSQ:AddSkin("Hex Black Border Soft", {
 		-- UseColor = nil,
 		-- SetAllPoints = nil,
 	},
+	AutoCast_Mask = {
+		-- Atlas = "UI-HUD-ActionBar-PetAutoCast-Mask",
+		-- UseAtlasSize = false,
+		Texture = [[Interface\AddOns\Masque\Textures\Hexagon\AutoCast-Mask]],
+		-- TexCoords = {0, 1, 0, 1},
+		Width = 36, -- 23
+		Height = 36, -- 23
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
+		OffsetY = 0.5,
+		-- SetAllPoints = nil,
+	},
 	AutoCastShine = {
 		Width = 35,
 		Height = 35,
@@ -3733,6 +3850,19 @@ MSQ:AddSkin("Hex Black Border Soft Rotated", {
 		OffsetX = 0,
 		OffsetY = 0,
 		-- UseColor = nil,
+		-- SetAllPoints = nil,
+	},
+	AutoCast_Mask = {
+		-- Atlas = "UI-HUD-ActionBar-PetAutoCast-Mask",
+		-- UseAtlasSize = false,
+		Texture = [[Interface\AddOns\Masque\Textures\Hexagon-Rotated\AutoCast-Mask]],
+		-- TexCoords = {0, 1, 0, 1},
+		Width = 36, -- 23
+		Height = 36, -- 23
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
+		OffsetY = 0.5,
 		-- SetAllPoints = nil,
 	},
 	AutoCastShine = {
@@ -4128,6 +4258,19 @@ MSQ:AddSkin("Hex Clean Soft", {
 		-- UseColor = nil,
 		-- SetAllPoints = nil,
 	},
+	AutoCast_Mask = {
+		-- Atlas = "UI-HUD-ActionBar-PetAutoCast-Mask",
+		-- UseAtlasSize = false,
+		Texture = [[Interface\AddOns\Masque\Textures\Hexagon\AutoCast-Mask]],
+		-- TexCoords = {0, 1, 0, 1},
+		Width = 36, -- 23
+		Height = 36, -- 23
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
+		OffsetY = 0.5,
+		-- SetAllPoints = nil,
+	},
 	AutoCastShine = {
 		Width = 35,
 		Height = 35,
@@ -4519,6 +4662,19 @@ MSQ:AddSkin("Hex Clean Soft Rotated", {
 		OffsetX = 0,
 		OffsetY = 0,
 		-- UseColor = nil,
+		-- SetAllPoints = nil,
+	},
+	AutoCast_Mask = {
+		-- Atlas = "UI-HUD-ActionBar-PetAutoCast-Mask",
+		-- UseAtlasSize = false,
+		Texture = [[Interface\AddOns\Masque\Textures\Hexagon-Rotated\AutoCast-Mask]],
+		-- TexCoords = {0, 1, 0, 1},
+		Width = 36, -- 23
+		Height = 36, -- 23
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
+		OffsetY = 0.5,
 		-- SetAllPoints = nil,
 	},
 	AutoCastShine = {
