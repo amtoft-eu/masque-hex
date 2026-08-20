@@ -1,5 +1,6 @@
-## Interface: 120000, 40402, 11507
+## Interface: 120000, 120100, 40402, 11507
 ## Title: Masque: Hex
+## Group: Masque
 ## Category: Masque
 
 ## Notes: Hex skin for Masque.
